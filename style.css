@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: consolas, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+
+#navItems {
+    display: flex;
+    position: relative;
+    top: -45px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.logo {
+    margin: 8px;
+    margin-left: 90px;
+}
+
+.navLink {
+    padding: 8px;
+}
+
+.navLink a {
+    color: #ff0099;
+}
+
+main {
+    background-image: url(assets/topography.png);
+    height: 100%;
+    margin: 0px;
+    padding: 0px 50px;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto Mono";
+}
+
+h1 {
+    margin: 0;
+    padding: 0px;
+    padding-top: 70px;
+    margin-left: 40px;
+    font-size: 38px;
+}
+
+h1#center {
+    text-align: center;
+    padding-top: 0;
+}
+
+h2 {
+    color: #f09;
+    margin: 20px;
+    padding-top: 0px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+h3 {
+    padding-left: 40px;
+}
+
+p {
+    margin: 20px 20px 0px 40px;
+    padding-bottom: 20px;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+hr {
+    border: none;
+    border-top: 1px dashed black;
+    text-align: center;
+    width: 40px;
+    height: 0px;
+    margin: 60px auto;
+}
